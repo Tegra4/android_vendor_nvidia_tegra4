@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
     libnvcapaudioservice \
     libnvddk_2d_v2 \
     libnvddk_vic \
+    libnvfusebypass \
     libnvmm_camera_v3 \
     libnvodm_query \
     libnvtvmr \
