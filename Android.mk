@@ -74,6 +74,17 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libnvcam_imageencoder
+LOCAL_MODULE_OWNER := nvidia
+LOCAL_SRC_FILES := proprietary/vendor/lib/libnvcam_imageencoder.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libnvcamerahdr
 LOCAL_MODULE_OWNER := nvidia
 LOCAL_SRC_FILES := proprietary/vendor/lib/libnvcamerahdr.so

@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     libaudioavp \
     libfcamdng \
     libnvblit \
+    libnvcam_imageencoder \
     libnvcamerahdr \
     libnvcapaudioservice \
     libnvddk_2d_v2 \
